@@ -1,0 +1,2517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>PK Navratri Nights 2k23</title>
+    <link rel="stylesheet" href="./css/static.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
+</head>
+
+<body>
+    <div class="guidline" id="guidline" style="display: none;">
+        <div class="guidline-content">
+            <button id="close-btn" class="close-btn" onclick="hideGuidline()">
+                <img src="./img/btn/cross.png" alt="" class="w-100">
+            </button>
+            <div class="guidline-data">
+                <div class="schedule-tag w-55">
+                    <img src="./img/tag/Guide tag.png" alt="" class="w-100">
+                </div>
+                <div class="how-to-play">
+                    <div class="talent-rewards-title">Event Rules</div><br />
+                    <ul>
+                        <li>6 Garba Dancers, 10 Singers, 4 Fashion Talents have to register their id’s with SK
+                            employees to participate in this event.</li>
+                        <li>Talents must wear outfit as per Navratri colour dress code on pk scheduled day.</li>
+                        <li>PK match will be held between the talents from same category, Garba dancers go against garba
+                            dancer, Singers go against singer, Fashion go against fashion talent.</li>
+                        <li>Talents need to come live 15 min before the PK Battle, there will be a 15-min official PK
+                            match scheduled for the event.</li>
+                        <li>First Talent to the left on the webpage schedule, will start the performance first and will
+                            perform for first 5 – 6 Min, then next talent will perform for 5 – 6 Min.</li>
+                        <li>Will have 1 winner from each category (Garba Dancing, Singing & Fashion) based on maximum
+                            beans received in the event will be mentioned in the BANNER for 3 days.</li>
+                        <li>Talents and User will be ranked on the leaderboard based on the maximum beans received and
+                            spent respectively in the event.</li>
+                        <li>Talent & User ranking will be separate for each category.</li>
+                        <li>The winner of this tournament will be decided based on the beans they receive in the Final
+                            Round.</li>
+                    </ul>
+                    <div class="talent-rewards">
+                        <div class="talent-rewards-title">Talent rewards</div>
+                        <ul>
+                            <li>Following rewards will be distributed as per gems they are receiving according to given
+                                criteria in both rounds of the event for the top 2 talents.</li>
+                        </ul>
+                        <div class="talent-rewards-table">
+                            <div class="c3h c3">
+                                <div class="c3-data">Rank</div>
+                                <div class="c3-data">Criteria</div>
+                                <div class="c3-data">Rewards</div>
+                            </div>
+                            <div class="c3b c3">
+                                <div class="c3-data">1</div>
+                                <div class="c3-data">4 Million & Above</div>
+                                <div class="c3-data">Rs 1500 Amazon E gift card Voucher </div>
+                            </div>
+                            <div class="c3b c3">
+                                <div class="c3-data">1</div>
+                                <div class="c3-data">3 Million & Above</div>
+                                <div class="c3-data">Rs 1000 Amazon E gift card Voucher </div>
+                            </div>
+                        </div>
+                        <ul>
+                            <li>If more than two talent meets the criteria, the top-earning talent will receive the
+                                given vouchers.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="guid-btn">
+        <button id="guid-btn" onclick="showGuidline()">
+            <img src="./img/btn/Guide-btn.png" alt="" class="w-100">
+        </button>
+    </div>
+    <div id="main">
+        <div class="header">
+            <img src="./img/Header.gif" alt="" class="w-100">
+        </div>
+        <div class="event-date w-55">
+            <img src="./img/Date.png" alt="" class="w-100">
+        </div>
+        <div>
+            <div class="tabr0 w-60 talentUserBtn">
+                <button class="demo0" onclick="infofunc01(event, 'userOnbtn')" id="mybutton01" style="right: 1vw;">
+                    <img class="w-100" src="./img/btn/User btn.png" alt="" />
+                </button>
+                <button class="demo0" onclick="infofunc01(event, 'talentOnbtn')" style="left: 1vw;">
+                    <img class="w-100" src="./img/btn/Talent btn.png" alt="" />
+                </button>
+            </div>
+            <div id="userOnbtn" class="demo1">
+                <div>
+                    <div class="tabr2 tabr1 w-85 p-4">
+                        <button class="demo2" onclick="infofunc23(event, 'userRewardRound1')" id="mybutton23">
+                            <img class="w-100" src="./img/btn/Round 1 select btn.png" alt="" />
+                        </button>
+                        <button class="demo2" onclick="infofunc23(event, 'userRewardRound2')">
+                            <img class="w-100" src="./img/btn/Round 2 select btn.png" alt="" />
+                        </button>
+                    </div>
+                    <div id="userRewardRound1" class="demo3">
+                        <div class="reward-section w-92">
+                            <div class="schedule-tag w-55">
+                                <img src="./img/tag/Rewards tag.png" alt="" class="w-100">
+                            </div>
+                            <div style="padding: 0 3vw;">
+                                <div id="userRewardRound1Dot1" class="demo01">
+                                    <div>1st Rank</div>
+                                </div>
+                                <div id="userRewardRound1Dot2" class="demo01">
+                                    <div>2nd Rank</div>
+                                </div>
+                                <div id="userRewardRound1Dot3" class="demo01">
+                                    <div>3rd Rank</div>
+                                </div>
+                                <div id="userRewardRound1Dot4" class="demo01">
+                                    <div>4th Rank</div>
+                                </div>
+                                <div id="userRewardRound1Dot5" class="demo01">
+                                    <div>5th-10th Rank</div>
+                                </div>
+                                <div class="column3">
+                                    <button onclick="slider001('left')">
+                                        <img src="./img/btn/LeftArrow.png" alt="" class="w-100">
+                                    </button>
+                                    <div class="w-35 center">
+                                        <img class="w-100" src="./img/Rewards/Beans.png" alt="" />
+                                    </div>
+                                    <button onclick="slider001('right')">
+                                        <img src="./img/btn/RightArrow.png" alt="" class="w-100">
+                                    </button>
+                                </div>
+
+                                <div class="tabr5 w-65">
+                                    <button class="demo00"
+                                        onclick="infofunc001(event, 'userRewardRound1Dot1','userRewardRound1Dot1Des')"
+                                        id="mybutton001">
+                                    </button>
+                                    <button class="demo00"
+                                        onclick="infofunc001(event, 'userRewardRound1Dot2','userRewardRound1Dot2Des')">
+                                    </button>
+                                    <button class="demo00"
+                                        onclick="infofunc001(event, 'userRewardRound1Dot3','userRewardRound1Dot3Des')">
+                                    </button>
+                                    <button class="demo00"
+                                        onclick="infofunc001(event, 'userRewardRound1Dot4','userRewardRound1Dot4Des')">
+                                    </button>
+                                    <button class="demo00"
+                                        onclick="infofunc001(event, 'userRewardRound1Dot5','userRewardRound1Dot5Des')">
+                                    </button>
+                                </div>
+                                <div id="userRewardRound1Dot1Des" class="demo01">
+                                    User receives 25% of total beans pot
+                                </div>
+                                <div id="userRewardRound1Dot2Des" class="demo01">
+                                    User receives 20% of total beans pot
+                                </div>
+                                <div id="userRewardRound1Dot3Des" class="demo01">
+                                    User receives 15% of total beans pot
+                                </div>
+                                <div id="userRewardRound1Dot4Des" class="demo01">
+                                    User receives 10% of total beans pot
+                                </div>
+                                <div id="userRewardRound1Dot5Des" class="demo01">
+                                    User receives 5% of total beans pot
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="userRewardRound2" class="demo3">
+                        <div class="reward-section w-92">
+                            <div class="schedule-tag w-55">
+                                <img src="./img/tag/Rewards tag.png" alt="" class="w-100">
+                            </div>
+                            <div style="padding: 0 3vw;">
+                                <div>
+                                    <div id="userRewardRound2Dot1" class="demo03">
+                                        <div>1st Rank</div>
+                                        <div class="column3">
+                                            <button onclick="slider023('left')">
+                                                <img src="./img/btn/LeftArrow.png" alt="" class="w-100">
+                                            </button>
+                                            <div class="col3">
+                                                <img class="w-100" src="./img/Rewards/Solar entrance'.png" alt="" />
+                                                <img class="w-100" src="./img/Rewards/Glory frame.png" alt="" />
+                                                <img class="w-100" src="./img/Rewards/Web page mention.png" alt="" />
+                                            </div>
+                                            <button onclick="slider023('right')">
+                                                <img src="./img/btn/RightArrow.png" alt="" class="w-100">
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div id="userRewardRound2Dot2" class="demo03">
+                                        <div>2nd Rank</div>
+                                        <div class="column3">
+                                            <button onclick="slider023('left')">
+                                                <img src="./img/btn/LeftArrow.png" alt="" class="w-100">
+                                            </button>
+                                            <div class="col3">
+                                                <img class="w-100" src="./img/Rewards/Solar entrance'.png" alt="" />
+                                                <img class="w-100" src="./img/Rewards/Glory frame.png" alt="" />
+                                                <img class="w-100" src="./img/Rewards/Web page mention.png" alt="" />
+                                            </div>
+                                            <button onclick="slider023('right')">
+                                                <img src="./img/btn/RightArrow.png" alt="" class="w-100">
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div id="userRewardRound2Dot3" class="demo03">
+                                        <div>3rd Rank</div>
+                                        <div class="column3">
+                                            <button onclick="slider023('left')">
+                                                <img src="./img/btn/LeftArrow.png" alt="" class="w-100">
+                                            </button>
+                                            <div class="col3">
+                                                <img class="w-100" src="./img/Rewards/Maharaja entrance.png" alt="" />
+                                                <img class="w-100" src="./img/Rewards/Glory frame.png" alt="" />
+                                                <img class="w-100" src="./img/Rewards/Web page mention.png" alt="" />
+                                            </div>
+                                            <button onclick="slider023('right')">
+                                                <img src="./img/btn/RightArrow.png" alt="" class="w-100">
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div id="userRewardRound2Dot4" class="demo03">
+                                        <div>4th Rank</div>
+                                        <div class="column3">
+                                            <button onclick="slider023('left')">
+                                                <img src="./img/btn/LeftArrow.png" alt="" class="w-100">
+                                            </button>
+                                            <div class="col3">
+                                                <img class="w-100" src="./img/Rewards/Maharaja entrance.png" alt="" />
+                                                <img class="w-100" src="./img/Rewards/Glory frame.png" alt="" />
+                                                <img class="w-100" src="./img/Rewards/Web page mention.png" alt="" />
+                                            </div>
+                                            <button onclick="slider023('right')">
+                                                <img src="./img/btn/RightArrow.png" alt="" class="w-100">
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div id="userRewardRound2Dot5" class="demo03">
+                                        <div>5th-10th Rank</div>
+                                        <div class="column3">
+                                            <button onclick="slider023('left')">
+                                                <img src="./img/btn/LeftArrow.png" alt="" class="w-100">
+                                            </button>
+                                            <div class="col2">
+                                                <img class="w-100" src="./img/Rewards/MAESTRO frame.png" alt="" />
+                                                <img class="w-100" src="./img/Rewards/Web page mention.png" alt="" />
+                                            </div>   
+                                            <button onclick="slider023('right')">
+                                                <img src="./img/btn/RightArrow.png" alt="" class="w-100">
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tabr5 w-65">
+                                    <button class="demo02"
+                                        onclick="infofunc023(event, 'userRewardRound2Dot1','userRewardRound2Dot1Des')"
+                                        id="mybutton023">
+                                    </button>
+                                    <button class="demo02"
+                                        onclick="infofunc023(event, 'userRewardRound2Dot2','userRewardRound2Dot2Des')">
+                                    </button>
+                                    <button class="demo02"
+                                        onclick="infofunc023(event, 'userRewardRound2Dot3','userRewardRound2Dot3Des')">
+                                    </button>
+                                    <button class="demo02"
+                                        onclick="infofunc023(event, 'userRewardRound2Dot4','userRewardRound2Dot4Des')">
+                                    </button>
+                                    <button class="demo02"
+                                        onclick="infofunc023(event, 'userRewardRound2Dot5','userRewardRound2Dot5Des')">
+                                    </button>
+                                </div>
+                                <div id="userRewardRound2Dot1Des" class="demo03">
+                                    7 days Solar Entrance + 15 days GLORY profile frame + webpage mention
+                                </div>
+                                <div id="userRewardRound2Dot2Des" class="demo03">
+                                    5 days Solar Entrance + 5 days GLORY profile frame + webpage mention
+                                </div>
+                                <div id="userRewardRound2Dot3Des" class="demo03">
+                                    3 days Maharaja Entrance + 3 days GLORY profile frame+ webpage mention
+                                </div>
+                                <div id="userRewardRound2Dot4Des" class="demo03">
+                                    1 day Maharaja Entrance + 1 day GLORY profile frame+ webpage mention
+                                </div>
+                                <div id="userRewardRound2Dot5Des" class="demo03">
+                                    3 days MAESTRO profile frame+ webpage mention
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-----------------------user schedule------------------->
+                <!-- <div>
+                    <div class="tabr2 tabr1 w-85 p-4" style="margin-bottom: -16vw;">
+                        <button class="demo4" onclick="infofunc45(event, 'userScheduleRound1')" id="mybutton45">
+                            <img class="w-100" src="./img/btn/Round 1 select btn.png" alt="" />
+                        </button>
+                        <button class="demo4" onclick="infofunc45(event, 'userScheduleRound2')">
+                            <img class="w-100" src="./img/btn/Round 2 select btn.png" alt="" />
+                        </button>
+                    </div>
+                    <div id="userScheduleRound1" class="demo5">
+                        <div>
+                            <div class="category-btn-bg w-85"></div>
+                            <div class="tabr2 tabr3 w-90">
+                                <button class="demo6" onclick="infofunc67(event, 'userScheduleRound1dance')"
+                                    id="mybutton67">
+                                    <img class="w-100" src="./img/btn/Garba fusion btn.png" alt="" />
+                                </button>
+                                <button class="demo6" onclick="infofunc67(event, 'userScheduleRound1singing')">
+                                    <img class="w-100" src="./img/btn/Singing battle btn.png" alt="" />
+                                </button>
+                                <button class="demo6" onclick="infofunc67(event, 'userScheduleRound1fashion')">
+                                    <img class="w-100" src="./img/btn/fashion battle btn.png" alt="" />
+                                </button>
+                            </div>
+                            <div id="userScheduleRound1dance" class="demo7">
+                                <div class="schedule-section w-92">
+                                    <div class="schedule-tag w-55">
+                                        <img src="./img/tag/Schedule tag.png" alt="" class="w-100">
+                                    </div>
+                                    <div class="table">
+                                        <div class="tab5 table-strip table-header">
+                                            <div>Date</div>
+                                            <div>Player 1</div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div>Player 2</div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Dated</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="userScheduleRound1singing" class="demo7">
+                                <div class="schedule-section w-92">
+                                    <div class="schedule-tag w-55">
+                                        <img src="./img/tag/Schedule tag.png" alt="" class="w-100">
+                                    </div>
+                                    <div class="table">
+                                        <div class="tab5 table-strip table-header">
+                                            <div>Date</div>
+                                            <div>Player 1</div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div>Player 2</div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Dates</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="userScheduleRound1fashion" class="demo7">
+                                <div class="schedule-section w-92">
+                                    <div class="schedule-tag w-55">
+                                        <img src="./img/tag/Schedule tag.png" alt="" class="w-100">
+                                    </div>
+                                    <div class="table">
+                                        <div class="tab5 table-strip table-header">
+                                            <div>Date</div>
+                                            <div>Player 1</div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div>Player 2</div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Datef</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="userScheduleRound2" class="demo5">
+                        <div>
+                            <div class="category-btn-bg w-85"></div>
+                            <div class="tabr2 tabr3 w-90">
+                                <button class="demo8" onclick="infofunc89(event, 'userScheduleRound2dance')"
+                                    id="mybutton89">
+                                    <img class="w-100" src="./img/btn/Garba fusion btn.png" alt="" />
+                                </button>
+                                <button class="demo8" onclick="infofunc89(event, 'userScheduleRound2singing')">
+                                    <img class="w-100" src="./img/btn/Singing battle btn.png" alt="" />
+                                </button>
+                                <button class="demo8" onclick="infofunc89(event, 'userScheduleRound2fashion')">
+                                    <img class="w-100" src="./img/btn/fashion battle btn.png" alt="" />
+                                </button>
+                            </div>
+                            <div id="userScheduleRound2dance" class="demo9">
+                                <div class="schedule-section w-92">
+                                    <div class="schedule-tag w-55">
+                                        <img src="./img/tag/Schedule tag.png" alt="" class="w-100">
+                                    </div>
+                                    <div class="table">
+                                        <div class="tab5 table-strip table-header">
+                                            <div>Date</div>
+                                            <div>Player 1</div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div>Player 2</div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Dated</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="userScheduleRound2singing" class="demo9">
+                                <div class="schedule-section w-92">
+                                    <div class="schedule-tag w-55">
+                                        <img src="./img/tag/Schedule tag.png" alt="" class="w-100">
+                                    </div>
+                                    <div class="table">
+                                        <div class="tab5 table-strip table-header">
+                                            <div>Date</div>
+                                            <div>Player 1</div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div>Player 2</div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Dates</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="userScheduleRound2fashion" class="demo9">
+                                <div class="schedule-section w-92">
+                                    <div class="schedule-tag w-55">
+                                        <img src="./img/tag/Schedule tag.png" alt="" class="w-100">
+                                    </div>
+                                    <div class="table">
+                                        <div class="tab5 table-strip table-header">
+                                            <div>Date</div>
+                                            <div>Player 1</div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div>Player 2</div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Datef</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            <div id="talentOnbtn" class="demo1">
+                <div>
+                    <div class="tabr2 tabr1 w-85 p-4">
+                        <button class="tdemo2" onclick="tinfofunc23(event, 'talentRewardRound1')" id="tmybutton23">
+                            <img class="w-100" src="./img/btn/Round 1 select btn.png" alt="" />
+                        </button>
+                        <button class="tdemo2" onclick="tinfofunc23(event, 'talentRewardRound2')">
+                            <img class="w-100" src="./img/btn/Round 2 select btn.png" alt="" />
+                        </button>
+                    </div>
+                    <div id="talentRewardRound1" class="tdemo3">
+                        <div class="reward-section w-92">
+                            <div class="schedule-tag w-55">
+                                <img src="./img/tag/Rewards tag.png" alt="" class="w-100">
+                            </div>
+                            <div style="padding: 0 3vw;">
+                                <div id="talentRewardRound1Dot1" class="tdemo01">
+                                    <div>05 Million & Above Gems</div>
+                                    <div class="column3">
+                                        <button onclick="tslider001('left')">
+                                            <img src="./img/btn/LeftArrow.png" alt="" class="w-100">
+                                        </button>
+                                        <div class="col2">
+                                            <img class="w-100" src="./img/Rewards/Pk superstar theme.png" alt="" />
+                                            <img class="w-100" src="./img/Rewards/Pk superstar frame.png" alt="" />
+                                        </div>
+                                        <button onclick="tslider001('right')">
+                                            <img src="./img/btn/RightArrow.png" alt="" class="w-100">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div id="talentRewardRound1Dot2" class="tdemo01">
+                                    <div>03 - 05 Million Gems</div>
+                                    <div class="column3">
+                                        <button onclick="tslider001('left')">
+                                            <img src="./img/btn/LeftArrow.png" alt="" class="w-100">
+                                        </button>
+                                        <div class="w-35 center">
+                                            <img class="w-100" src="./img/Rewards/Pk superstar theme.png" alt="" />
+                                        </div>
+                                        <button onclick="tslider001('right')">
+                                            <img src="./img/btn/RightArrow.png" alt="" class="w-100">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div id="talentRewardRound1Dot3" class="tdemo01">
+                                    <div>01 - 03 Million Gems</div>
+                                    <div class="column3">
+                                        <button onclick="tslider001('left')">
+                                            <img src="./img/btn/LeftArrow.png" alt="" class="w-100">
+                                        </button>
+                                        <div class="w-35 center">
+                                            <img class="w-100" src="./img/Rewards/Pk superstar theme.png" alt="" />
+                                        </div>
+                                        <button onclick="tslider001('right')">
+                                            <img src="./img/btn/RightArrow.png" alt="" class="w-100">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div id="talentRewardRound1Dot4" class="tdemo01">
+                                    <div>500K – 1 Million Gems</div>
+                                    <div class="column3">
+                                        <button onclick="tslider001('left')">
+                                            <img src="./img/btn/LeftArrow.png" alt="" class="w-100">
+                                        </button>
+                                        <div class="w-35 center">
+                                            <img class="w-100" src="./img/Rewards/Pk superstar theme.png" alt="" />
+                                        </div>
+                                        <button onclick="tslider001('right')">
+                                            <img src="./img/btn/RightArrow.png" alt="" class="w-100">
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="tabr5 w-65">
+                                    <button class="tdemo00"
+                                        onclick="tinfofunc001(event, 'talentRewardRound1Dot1','talentRewardRound1Dot1Des')"
+                                        id="tmybutton001">
+                                    </button>
+                                    <button class="tdemo00"
+                                        onclick="tinfofunc001(event, 'talentRewardRound1Dot2','talentRewardRound1Dot2Des')">
+                                    </button>
+                                    <button class="tdemo00"
+                                        onclick="tinfofunc001(event, 'talentRewardRound1Dot3','talentRewardRound1Dot3Des')">
+                                    </button>
+                                    <button class="tdemo00"
+                                        onclick="tinfofunc001(event, 'talentRewardRound1Dot4','talentRewardRound1Dot4Des')">
+                                    </button>
+                                </div>
+                                <div id="talentRewardRound1Dot1Des" class="tdemo01">
+                                    10 Days Audio Room theme + Profile Frame
+                                </div>
+                                <div id="talentRewardRound1Dot2Des" class="tdemo01">
+                                    5 Days Audio Room theme
+                                </div>
+                                <div id="talentRewardRound1Dot3Des" class="tdemo01">
+                                    3 Days Audio Room theme
+                                </div>
+                                <div id="talentRewardRound1Dot4Des" class="tdemo01">
+                                    1 Day Audio Room Theme
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="talentRewardRound2" class="tdemo3">
+                        <div class="reward-section w-92">
+                            <div class="schedule-tag w-55">
+                                <img src="./img/tag/Rewards tag.png" alt="" class="w-100">
+                            </div>
+                            <div style="padding: 0 3vw;">
+                                <div id="talentRewardRound2Dot1" class="tdemo03">
+                                    <div>10 Million & Above Gems</div>
+                                    <div class="column3">
+                                        <button onclick="tslider023('left')">
+                                            <img src="./img/btn/LeftArrow.png" alt="" class="w-100">
+                                        </button>
+                                        <div class="col3">
+                                            <img class="w-100" src="./img/Rewards/Pk superstar badge.png" alt="" />
+                                            <img class="w-100" src="./img/Rewards/Pk superstar theme.png" alt="" />
+                                            <img class="w-100" src="./img/Rewards/Pk superstar frame.png" alt="" />
+                                        </div>
+                                        <button onclick="tslider023('right')">
+                                            <img src="./img/btn/RightArrow.png" alt="" class="w-100">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div id="talentRewardRound2Dot2" class="tdemo03">
+                                    <div>05- 10 Million Gems</div>
+                                    <div class="column3">
+                                        <button onclick="tslider023('left')">
+                                            <img src="./img/btn/LeftArrow.png" alt="" class="w-100">
+                                        </button>
+                                        <div class="col2">
+                                            <img class="w-100" src="./img/Rewards/Pk superstar theme.png" alt="" />
+                                            <img class="w-100" src="./img/Rewards/Pk superstar frame.png" alt="" />
+                                        </div>
+                                        <button onclick="tslider023('right')">
+                                            <img src="./img/btn/RightArrow.png" alt="" class="w-100">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div id="talentRewardRound2Dot3" class="tdemo03">
+                                    <div>03- 05 Million Gems</div>
+                                    <div class="column3">
+                                        <button onclick="tslider023('left')">
+                                            <img src="./img/btn/LeftArrow.png" alt="" class="w-100">
+                                        </button>
+                                        <div class="w-35 center">
+                                            <img class="w-100" src="./img/Rewards/Pk superstar theme.png" alt="" />
+                                        </div>
+                                        <button onclick="tslider023('right')">
+                                            <img src="./img/btn/RightArrow.png" alt="" class="w-100">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div id="talentRewardRound2Dot4" class="tdemo03">
+                                    <div>01- 03 Million Gems</div>
+                                    <div class="column3">
+                                        <button onclick="tslider023('left')">
+                                            <img src="./img/btn/LeftArrow.png" alt="" class="w-100">
+                                        </button>
+                                        <div class="w-35 center">
+                                            <img class="w-100" src="./img/Rewards/Pk superstar theme.png" alt="" />
+                                        </div>
+                                        <button onclick="tslider023('right')">
+                                            <img src="./img/btn/RightArrow.png" alt="" class="w-100">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="tabr5 w-65">
+                                    <button class="tdemo02"
+                                        onclick="tinfofunc023(event, 'talentRewardRound2Dot1','talentRewardRound2Dot1Des')"
+                                        id="tmybutton023">
+                                    </button>
+                                    <button class="tdemo02"
+                                        onclick="tinfofunc023(event, 'talentRewardRound2Dot2','talentRewardRound2Dot2Des')">
+                                    </button>
+                                    <button class="tdemo02"
+                                        onclick="tinfofunc023(event, 'talentRewardRound2Dot3','talentRewardRound2Dot3Des')">
+                                    </button>
+                                    <button class="tdemo02"
+                                        onclick="tinfofunc023(event, 'talentRewardRound2Dot4','talentRewardRound2Dot4Des')">
+                                    </button>
+                                </div>
+                                <div id="talentRewardRound2Dot1Des" class="tdemo03">
+                                    15 days PK SUPER STAR BADGE + Audio theme of PK SuperStar + PK SuperStar Profile
+                                    Frame
+                                </div>
+                                <div id="talentRewardRound2Dot2Des" class="tdemo03">
+                                    10 days Audio theme of PK SuperStar + PK SuperStar Profile Frame
+                                </div>
+                                <div id="talentRewardRound2Dot3Des" class="tdemo03">
+                                    07 days Audio theme of PK SuperStar
+                                </div>
+                                <div id="talentRewardRound2Dot4Des" class="tdemo03">
+                                    5 days Audio theme of PK SuperStar
+                                </div>
+                                <div id="talentRewardRound2Dot5Des" class="tdemo03">
+                                    3 days MAESTRO profile frame+ webpage mention
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ---------------------talent schedule----------------- -->
+                <!-- <div>
+                    <div class="tabr2 tabr1 w-85 p-4" style="margin-bottom: -16vw;">
+                        <button class="tdemo4" onclick="tinfofunc45(event, 'talentScheduleRound1')" id="tmybutton45">
+                            <img class="w-100" src="./img/btn/Round 1 select btn.png" alt="" />
+                        </button>
+                        <button class="tdemo4" onclick="tinfofunc45(event, 'talentScheduleRound2')">
+                            <img class="w-100" src="./img/btn/Round 2 select btn.png" alt="" />
+                        </button>
+                    </div>
+                    <div id="talentScheduleRound1" class="tdemo5">
+                        <div>
+                            <div class="category-btn-bg w-85"></div>
+                            <div class="tabr2 tabr3 w-90">
+                                <button class="tdemo6" onclick="tinfofunc67(event, 'talentScheduleRound1dance')"
+                                    id="tmybutton67">
+                                    <img class="w-100" src="./img/btn/Garba fusion btn.png" alt="" />
+                                </button>
+                                <button class="tdemo6" onclick="tinfofunc67(event, 'talentScheduleRound1singing')">
+                                    <img class="w-100" src="./img/btn/Singing battle btn.png" alt="" />
+                                </button>
+                                <button class="tdemo6" onclick="tinfofunc67(event, 'talentScheduleRound1fashion')">
+                                    <img class="w-100" src="./img/btn/fashion battle btn.png" alt="" />
+                                </button>
+                            </div>
+                            <div id="talentScheduleRound1dance" class="tdemo7">
+                                <div class="schedule-section w-92">
+                                    <div class="schedule-tag w-55">
+                                        <img src="./img/tag/Schedule tag.png" alt="" class="w-100">
+                                    </div>
+                                    <div class="table">
+                                        <div class="tab5 table-strip table-header">
+                                            <div>Date</div>
+                                            <div>Player 1</div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div>Player 2</div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Dated</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="talentScheduleRound1singing" class="tdemo7">
+                                <div class="schedule-section w-92">
+                                    <div class="schedule-tag w-55">
+                                        <img src="./img/tag/Schedule tag.png" alt="" class="w-100">
+                                    </div>
+                                    <div class="table">
+                                        <div class="tab5 table-strip table-header">
+                                            <div>Date</div>
+                                            <div>Player 1</div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div>Player 2</div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Dates</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="talentScheduleRound1fashion" class="tdemo7">
+                                <div class="schedule-section w-92">
+                                    <div class="schedule-tag w-55">
+                                        <img src="./img/tag/Schedule tag.png" alt="" class="w-100">
+                                    </div>
+                                    <div class="table">
+                                        <div class="tab5 table-strip table-header">
+                                            <div>Date</div>
+                                            <div>Player 1</div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div>Player 2</div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Datef</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="talentScheduleRound2" class="demo5">
+                        <div>
+                            <div class="category-btn-bg w-85"></div>
+                            <div class="tabr2 tabr3 w-90">
+                                <button class="tdemo8" onclick="tinfofunc89(event, 'talentScheduleRound2dance')"
+                                    id="tmybutton89">
+                                    <img class="w-100" src="./img/btn/Garba fusion btn.png" alt="" />
+                                </button>
+                                <button class="tdemo8" onclick="tinfofunc89(event, 'talentScheduleRound2singing')">
+                                    <img class="w-100" src="./img/btn/Singing battle btn.png" alt="" />
+                                </button>
+                                <button class="tdemo8" onclick="tinfofunc89(event, 'talentScheduleRound2fashion')">
+                                    <img class="w-100" src="./img/btn/fashion battle btn.png" alt="" />
+                                </button>
+                            </div>
+                            <div id="talentScheduleRound2dance" class="tdemo9">
+                                <div class="schedule-section w-92">
+                                    <div class="schedule-tag w-55">
+                                        <img src="./img/tag/Schedule tag.png" alt="" class="w-100">
+                                    </div>
+                                    <div class="table">
+                                        <div class="tab5 table-strip table-header">
+                                            <div>Date</div>
+                                            <div>Player 1</div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div>Player 2</div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Dated</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="talentScheduleRound2singing" class="tdemo9">
+                                <div class="schedule-section w-92">
+                                    <div class="schedule-tag w-55">
+                                        <img src="./img/tag/Schedule tag.png" alt="" class="w-100">
+                                    </div>
+                                    <div class="table">
+                                        <div class="tab5 table-strip table-header">
+                                            <div>Date</div>
+                                            <div>Player 1</div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div>Player 2</div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Dates</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="talentScheduleRound2fashion" class="tdemo9">
+                                <div class="schedule-section w-92">
+                                    <div class="schedule-tag w-55">
+                                        <img src="./img/tag/Schedule tag.png" alt="" class="w-100">
+                                    </div>
+                                    <div class="table">
+                                        <div class="tab5 table-strip table-header">
+                                            <div>Date</div>
+                                            <div>Player 1</div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div>Player 2</div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Datef</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                        <div class="tab5 table-strip">
+                                            <div>Date</div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000"> Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                            <div class="center"><a href="http://www.kktv1.com/m/?roomid=00000000">Tejaswini Pujari <br />ID:00000000</a></div>
+                                            <div>Time (IST)</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <!-- --------------------- schedule----------------- -->
+        <div>
+            <div class="tabr2 tabr1 w-85 p-4" style="margin-bottom: -16vw;">
+                <button class="tdemo4" onclick="tinfofunc45(event, 'talentScheduleRound1')">
+                    <img class="w-100" src="./img/btn/Round 1 select btn.png" alt="" />
+                </button>
+                <button class="tdemo4" onclick="tinfofunc45(event, 'talentScheduleRound2')" id="tmybutton45">
+                    <img class="w-100" src="./img/btn/Round 2 select btn.png" alt="" />
+                </button>
+            </div>
+            <div id="talentScheduleRound1" class="tdemo5">
+                <div>
+                    <div class="category-btn-bg w-85"></div>
+                    <div class="tabr2 tabr3 w-90">
+                        <button class="tdemo6" onclick="tinfofunc67(event, 'talentScheduleRound1dance')"
+                            id="tmybutton67">
+                            <img class="w-100" src="./img/btn/Garba fusion btn.png" alt="" />
+                        </button>
+                        <button class="tdemo6" onclick="tinfofunc67(event, 'talentScheduleRound1singing')">
+                            <img class="w-100" src="./img/btn/Singing battle btn.png" alt="" />
+                        </button>
+                        <button class="tdemo6" onclick="tinfofunc67(event, 'talentScheduleRound1fashion')">
+                            <img class="w-100" src="./img/btn/fashion battle btn.png" alt="" />
+                        </button>
+                    </div>
+                    <div id="talentScheduleRound1dance" class="tdemo7">
+                        <div class="schedule-section w-92">
+                            <div class="schedule-tag w-55">
+                                <img src="./img/tag/Schedule tag.png" alt="" class="w-100">
+                            </div>
+                            <div class="table">
+                                <div class="tab5 table-strip table-header">
+                                    <div>Date</div>
+                                    <div>Player 1</div>
+                                    <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                    <div>Player 2</div>
+                                    <div>Time (IST)</div>
+                                </div>
+                                <div class="tab5 table-strip">
+                                    <div>19-10-2023</div>
+                                    <div class="center"><a href="http://www.kktv1.com/m/?roomid=644707786"
+                                            class="yellow-txt"> 𝐉𝐀𝐀𝐍𝐔 💋 <br />ID:644707786</a></div>
+                                    <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                    <div class="center"><a href="http://www.kktv1.com/m/?roomid=633447348"
+                                            class="yellow-txt">S᭄❤️ﮩﮩ٨ـTEDDYـﮩﮩ٨ـ❤️ <br />ID:633447348</a></div>
+                                    <div>21:15-21:30</div>
+                                </div>
+                                <div class="tab5 table-strip">
+                                    <div>19-10-2023</div>
+                                    <div class="center"><a href="http://www.kktv1.com/m/?roomid=635752070"
+                                            class="yellow-txt"> ✓®™Soni.....❤️👀💃 <br />ID:635752070</a></div>
+                                    <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                    <div class="center"><a href="http://www.kktv1.com/m/?roomid=614097927"
+                                            class="yellow-txt">🦢₴᭄ꦿ 𝙈𝙊𝙉𝘼🍡 <br />ID:614097927</a></div>
+                                    <div>21:30-21:45</div>
+                                </div>
+                                <div class="tab5 table-strip">
+                                    <div>19-10-2023</div>
+                                    <div class="center"><a href="http://www.kktv1.com/m/?roomid=583520006"
+                                            class="yellow-txt"> Yashi💋💋❤️❤️ <br />ID:583520006</a></div>
+                                    <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                    <div class="center"><a href="http://www.kktv1.com/m/?roomid=605056219"
+                                            class="yellow-txt">💞S᭄sRiStï?<br />ID:605056219</a></div>
+                                    <div>21:45-22:00</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="talentScheduleRound1singing" class="tdemo7">
+                        <div class="schedule-section w-92">
+                            <div class="schedule-tag w-55">
+                                <img src="./img/tag/Schedule tag.png" alt="" class="w-100">
+                            </div>
+                            <div class="table">
+                                <div class="tab5 table-strip table-header">
+                                    <div>Date</div>
+                                    <div>Player 1</div>
+                                    <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                    <div>Player 2</div>
+                                    <div>Time (IST)</div>
+                                </div>
+                                <div class="tab5 table-strip">
+                                    <div>18-10-2023</div>
+                                    <div class="center"><a href="http://www.kktv1.com/m/?roomid=625793134"
+                                            class="yellow-txt"> ꧁𓊈𒆜🅼🆄🆁🅻🅸𒆜𓊉꧂<br />ID:625793134</a></div>
+                                    <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                    <div class="center"><a href="http://www.kktv1.com/m/?roomid=628264282"
+                                            class="yellow-txt">🎸Siya Singh 🎸🙂 <br />ID:628264282</a></div>
+                                    <div>21:15-21:30</div>
+                                </div>
+                                <div class="tab5 table-strip">
+                                    <div>18-10-2023</div>
+                                    <div class="center"><a href="http://www.kktv1.com/m/?roomid=630758906"
+                                            class="yellow-txt"> shweta gupta 🦋 <br />ID:630758906</a></div>
+                                    <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                    <div class="center"><a href="http://www.kktv1.com/m/?roomid=642510069"
+                                            class="yellow-txt">🌹Ꮥ💍Ɲ 卂 ᙏ🌹<br />ID:642510069</a></div>
+                                    <div>21:30-21:45</div>
+                                </div>
+                                <div class="tab5 table-strip">
+                                    <div>18-10-2023</div>
+                                    <div class="center"><a href="http://www.kktv1.com/m/?roomid=605371677"
+                                            class="yellow-txt"> DILNASHI 🎧<br />ID:605371677</a></div>
+                                    <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                    <div class="center"><a href="http://www.kktv1.com/m/?roomid=619032055"
+                                            class="yellow-txt">Versatile_PNK🖤 <br />ID:619032055</a></div>
+                                    <div>21:45-22:00</div>
+                                </div>
+                                <div class="tab5 table-strip">
+                                    <div>18-10-2023</div>
+                                    <div class="center"><a href="http://www.kktv1.com/m/?roomid=631658884"
+                                            class="yellow-txt"> 🎤SiNGER💫FAiZAAL🎤<br />ID:631658884</a></div>
+                                    <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                    <div class="center"><a href="http://www.kktv1.com/m/?roomid=623248845"
+                                            class="yellow-txt">🦋⃟✮⃝🇲u̷s̷k̷a̷n̷𝄟⃝) <br />ID:623248845</a></div>
+                                    <div>22:00-22:15</div>
+                                </div>
+                                <div class="tab5 table-strip">
+                                    <div>18-10-2023</div>
+                                    <div class="center"><a href="http://www.kktv1.com/m/?roomid=590660267"
+                                            class="yellow-txt"> ❤️🇯 🇪 🇳 🇳 🇾 ❤️<br />ID:590660267</a></div>
+                                    <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                    <div class="center"><a href="http://www.kktv1.com/m/?roomid=561580330"
+                                            class="yellow-txt">🎵 ⃢🎸ᴠɪʀᴀᴊ™?✔️ <br />ID:561580330</a></div>
+                                    <div>22:15-22:30</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="talentScheduleRound1fashion" class="tdemo7">
+                        <div class="schedule-section w-92">
+                            <div class="schedule-tag w-55">
+                                <img src="./img/tag/Schedule tag.png" alt="" class="w-100">
+                            </div>
+                            <div class="table">
+                                <div class="tab5 table-strip table-header">
+                                    <div>Date</div>
+                                    <div>Player 1</div>
+                                    <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                    <div>Player 2</div>
+                                    <div>Time (IST)</div>
+                                </div>
+                                <div class="tab5 table-strip">
+                                    <div>19-10-2023</div>
+                                    <div class="center"><a href="http://www.kktv1.com/m/?roomid=584004453"
+                                            class="yellow-txt"> 🎙️ Singer Sarita 🎧 <br />ID:584004453</a></div>
+                                    <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                    <div class="center"><a href="http://www.kktv1.com/m/?roomid=634167880"
+                                            class="yellow-txt">꧁༺ɨȶ'ֆ ʍɛɛռǟӄֆɦɨ༻꧂<br />ID:634167880</a></div>
+                                    <div>22:00-22:15</div>
+                                </div>
+                                <div class="tab5 table-strip">
+                                    <div>19-10-2023</div>
+                                    <div class="center"><a href="http://www.kktv1.com/m/?roomid=625028412"
+                                            class="yellow-txt"> 😡👑ợµэи🐼✨🔥<br />ID:625028412</a></div>
+                                    <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                    <div class="center"><a href="http://www.kktv1.com/m/?roomid=614718343"
+                                            class="yellow-txt">💯༺кαнєяιє༻💯<br />ID:614718343</a></div>
+                                    <div>22:15-22:30</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="talentScheduleRound2" class="tdemo5">
+                <div>
+                    <div class="category-btn-bg w-85"></div>
+                    <div class="tabr2 tabr3 w-90">
+                        <button class="tdemo8" onclick="tinfofunc89(event, 'talentScheduleRound2dance')"
+                            id="tmybutton89">
+                            <img class="w-100" src="./img/btn/Garba fusion btn.png" alt="" />
+                        </button>
+                        <button class="tdemo8" onclick="tinfofunc89(event, 'talentScheduleRound2singing')">
+                            <img class="w-100" src="./img/btn/Singing battle btn.png" alt="" />
+                        </button>
+                        <button class="tdemo8" onclick="tinfofunc89(event, 'talentScheduleRound2fashion')">
+                            <img class="w-100" src="./img/btn/fashion battle btn.png" alt="" />
+                        </button>
+                    </div>
+                    <div id="talentScheduleRound2dance" class="tdemo9">
+                        <div class="schedule-section w-92">
+                            <div class="schedule-tag w-55">
+                                <img src="./img/tag/Schedule tag.png" alt="" class="w-100">
+                            </div>
+                            <div class="table">
+                                <div class="tab5 table-strip table-header">
+                                    <div>Date</div>
+                                    <div>Player 1</div>
+                                    <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                    <div>Player 2</div>
+                                    <div>Time (IST)</div>
+                                </div>
+                                <div class="tab5 table-strip">
+                                    <div>22-10-2023</div>
+                                    <div class="center"><a href="http://www.kktv1.com/m/?roomid=583520006"
+                                            class="yellow-txt">Yashi💋💋❤️❤️<br />ID:583520006</a></div>
+                                    <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                    <div class="center"><a href="http://www.kktv1.com/m/?roomid=614097927"
+                                            class="yellow-txt">🦢₴᭄ꦿ 𝙈𝙊𝙉𝘼🍡 <br />ID:614097927</a></div>
+                                    <div>21:45-22:00</div>
+                                </div>
+                                <div class="tab5 table-strip">
+                                    <div>22-10-2023</div>
+                                    <div class="center"><a href="http://www.kktv1.com/m/?roomid=635752070"
+                                            class="yellow-txt">✓®™Soni.....❤️👀💃<br />ID:635752070</a></div>
+                                    <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                    <div class="center"><a href="http://www.kktv1.com/m/?roomid=644707786"
+                                            class="yellow-txt">𝐉𝐀𝐀𝐍𝐔 💋<br />ID:644707786</a></div>
+                                    <div>22:30-22:45</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="talentScheduleRound2singing" class="tdemo9">
+                        <div class="schedule-section w-92">
+                            <div class="schedule-tag w-55">
+                                <img src="./img/tag/Schedule tag.png" alt="" class="w-100">
+                            </div>
+                            <div class="table">
+                                <div class="tab5 table-strip table-header">
+                                    <div>Date</div>
+                                    <div>Player 1</div>
+                                    <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                    <div>Player 2</div>
+                                    <div>Time (IST)</div>
+                                </div>
+                                <div class="tab5 table-strip">
+                                    <div>22-10-2023</div>
+                                    <div class="center"><a href="http://www.kktv1.com/m/?roomid=628264282"
+                                            class="yellow-txt">🎸Siya Singh 🎸🙂<br />ID:628264282</a></div>
+                                    <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                    <div class="center"><a href="http://www.kktv1.com/m/?roomid=561580330"
+                                            class="yellow-txt">🎵 ⃢🎸ᴠɪʀᴀᴊ™?✔️ <br />ID:561580330</a></div>
+                                    <div>21:00-21:15</div>
+                                </div>
+                                <div class="tab5 table-strip">
+                                    <div>22-10-2023</div>
+                                    <div class="center"><a href="http://www.kktv1.com/m/?roomid=630758906"
+                                            class="yellow-txt"> shweta gupta 🦋 <br />ID:630758906</a></div>
+                                    <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                    <div class="center"><a href="http://www.kktv1.com/m/?roomid=625793134"
+                                            class="yellow-txt">꧁𓊈𒆜🅼🆄🆁🅻🅸𒆜𓊉꧂ <br />ID:625793134</a></div>
+                                    <div>21:15-21:30</div>
+                                </div>
+                                <div class="tab5 table-strip">
+                                    <div>22-10-2023</div>
+                                    <div class="center"><a href="http://www.kktv1.com/m/?roomid=623248845"
+                                            class="yellow-txt"> 🦋⃟✮⃝🇲u̷s̷k̷a̷n̷𝄟⃝) <br />ID:623248845</a></div>
+                                    <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                    <div class="center"><a href="http://www.kktv1.com/m/?roomid=590660267"
+                                            class="yellow-txt">❤️🇯 🇪 🇳 🇳 🇾 ❤️ <br />ID:590660267</a></div>
+                                    <div>21:30-21:45</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="talentScheduleRound2fashion" class="tdemo9">
+                        <div class="schedule-section w-92">
+                            <div class="schedule-tag w-55">
+                                <img src="./img/tag/Schedule tag.png" alt="" class="w-100">
+                            </div>
+                            <div class="table">
+                                <div class="tab5 table-strip table-header">
+                                    <div>Date</div>
+                                    <div>Player 1</div>
+                                    <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                    <div>Player 2</div>
+                                    <div>Time (IST)</div>
+                                </div>
+                                <div class="tab5 table-strip">
+                                    <div>22-10-2023</div>
+                                    <div class="center"><a href="http://www.kktv1.com/m/?roomid=625028412"
+                                            class="yellow-txt"> 😡👑ợµэи🐼✨🔥 <br />ID:625028412</a></div>
+                                    <div class="vs-icon"><img src="./img/Vs.png" alt="" class="w-100"></div>
+                                    <div class="center"><a href="http://www.kktv1.com/m/?roomid=614718343"
+                                            class="yellow-txt">💯༺кαнєяιє༻💯<br />ID:614718343</a></div>
+                                    <div>23:00-23:15</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-------------------- leaderboard-------------------------->
+        <div>
+            <div class="tabr0 w-60 talentUserBtn">
+                <button class="demo000" onclick="infofunc0001(event, 'userOnbtn1')" id="mybutton0001"
+                    style="right: 1vw;">
+                    <img class="w-100" src="./img/btn/User btn.png" alt="" />
+                </button>
+                <button class="demo000" onclick="infofunc0001(event, 'talentOnbtn1')" style="left: 1vw;">
+                    <img class="w-100" src="./img/btn/Talent btn.png" alt="" />
+                </button>
+            </div>
+            <div id="userOnbtn1" class="demo001">
+                <div>
+                    <div class="tabr2 tabr1 w-85 p-4" style="margin-bottom: -16vw;">
+                        <button class="demo04" onclick="infofunc045(event, 'userLeaderboardRound1')" id="mybutton045">
+                            <img class="w-100" src="./img/btn/Round 1 select btn.png" alt="" />
+                        </button>
+                        <button class="demo04" onclick="infofunc045(event, 'userLeaderboardRound2')" disabled>
+                            <img class="w-100" src="./img/btn/Round 2 select btn.png" alt="" />
+                        </button>
+                    </div>
+                    <div id="userLeaderboardRound1" class="demo05">
+                        <div class="leaderboard-section w-92" style="margin-top: 15vw;">
+                            <div class="schedule-tag w-55">
+                                <img src="./img/tag/Leaderboard tag.png" alt="" class="w-100">
+                            </div>
+                            <div class="leaderboard-data">
+                                <div class="bean-pot-amount">Beans Pot: 111,601	</div>
+                                <div class="leaderboard-top3">
+                                    <div>
+                                        <div class="top3-profile-img">
+                                            <a href="http://www.kktv1.com/m/?roomid=566058662">
+                                                <img src="../common/img/kk_head_avatar_men.png" id="u_img_566058662"
+                                                    alt="" class="w-100 round-img">
+                                            </a>
+                                        </div>
+                                        <div class="top2-data top123-data">
+                                            <div>Kabeer❤️	</div>
+                                            <div>ID:566058662</div>
+                                            <div>858,000 <img src="./img/Beans icon.png" alt="" class="beans-icon">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="top3-profile-img">
+                                            <a href="http://www.kktv1.com/m/?roomid=636327711">
+                                                <img src="../common/img/kk_head_avatar_men.png" id="u_img_636327711"
+                                                    alt="" class="w-100 round-img">
+                                            </a>
+                                        </div>
+                                        <div class="top1-data top123-data">
+                                            <div>Ꮋꭼꭺꭱꭲ 💔 Ꮋꭺꮯꮶꭼꭱ</div>
+                                            <div>ID:636327711</div>
+                                            <div>1,276,000 <img src="./img/Beans icon.png" alt="" class="beans-icon">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="top3-profile-img">
+                                            <a href="http://www.kktv1.com/m/?roomid=552954299">
+                                                <img src="../common/img/kk_head_avatar_men.png" id="u_img_552954299"
+                                                    alt="" class="w-100 round-img">
+                                            </a>
+                                        </div>
+                                        <div class="top3-data top123-data">
+                                            <div>🇸 🇦 🇲 🇪 🇪 ?🥀</div>
+                                            <div>ID:552954299</div>
+                                            <div>802,000 <img src="./img/Beans icon.png" alt="" class="beans-icon">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="all-leaderboard-strip1">
+                                    <div class="leaderboard-strip">
+                                        <div>4. </div>
+                                        <div><a href="http://www.kktv1.com/m/?roomid=634675041">
+                                                <img src="../common/img/kk_head_avatar_men.png" id="u_img_634675041"
+                                                    alt="" class="w-100 round-img">
+                                            </a></div>
+                                        <div>SC004<br />ID: 634675041</div>
+                                        <div style="text-align: end;">300,000 <img src="img/Beans icon.png" alt=""
+                                                class="beans-icon"></div>
+                                    </div>
+                                    <div class="leaderboard-strip">
+                                        <div>5. </div>
+                                        <div><a href="http://www.kktv1.com/m/?roomid=585648528">
+                                                <img src="../common/img/kk_head_avatar_men.png" id="u_img_585648528"
+                                                    alt="" class="w-100 round-img">
+                                            </a></div>
+                                        <div>V-O-R-T-E-X 🌀<br />ID: 585648528</div>
+                                        <div style="text-align: end;">279,000 <img src="img/Beans icon.png" alt=""
+                                                class="beans-icon"></div>
+                                    </div>
+                                    <div class="leaderboard-strip">
+                                        <div>6. </div>
+                                        <div><a href="http://www.kktv1.com/m/?roomid=644567497">
+                                                <img src="../common/img/kk_head_avatar_men.png" id="u_img_644567497"
+                                                    alt="" class="w-100 round-img">
+                                            </a></div>
+                                        <div>🕉 om🕉  <br />ID: 644567497</div>
+                                        <div style="text-align: end;">200,000 <img src="img/Beans icon.png" alt=""
+                                                class="beans-icon"></div>
+                                    </div>
+                                    <div class="leaderboard-strip">
+                                        <div>7. </div>
+                                        <div><a href="http://www.kktv1.com/m/?roomid=625102031">
+                                                <img src="../common/img/kk_head_avatar_men.png" id="u_img_625102031"
+                                                    alt="" class="w-100 round-img">
+                                            </a></div>
+                                        <div>ROYAL_AGENCY	 <br />ID: 625102031</div>
+                                        <div style="text-align: end;">200,000 <img src="img/Beans icon.png" alt=""
+                                                class="beans-icon"></div>
+                                    </div>
+                                    <div class="leaderboard-strip">
+                                        <div>8. </div>
+                                        <div><a href="http://www.kktv1.com/m/?roomid=569210640">
+                                                <img src="../common/img/kk_head_avatar_men.png" id="u_img_569210640"
+                                                    alt="" class="w-100 round-img">
+                                            </a></div>
+                                        <div>🤡DAZZLERR🤡	 <br />ID: 569210640</div>
+                                        <div style="text-align: end;">200,000 <img src="img/Beans icon.png" alt=""
+                                                class="beans-icon"></div>
+                                    </div>
+                                    <div class="leaderboard-strip">
+                                        <div>9. </div>
+                                        <div><a href="http://www.kktv1.com/m/?roomid=638040683">
+                                                <img src="../common/img/kk_head_avatar_men.png" id="u_img_638040683"
+                                                    alt="" class="w-100 round-img">
+                                            </a></div>
+                                        <div>🔱Bhole ka Bhagat🔱 <br />ID: 638040683</div>
+                                        <div style="text-align: end;">199,000 <img src="img/Beans icon.png" alt=""
+                                                class="beans-icon"></div>
+                                    </div>
+                                    <div class="leaderboard-strip">
+                                        <div>10. </div>
+                                        <div><a href="http://www.kktv1.com/m/?roomid=645270213">
+                                                <img src="../common/img/kk_head_avatar_men.png" id="u_img_645270213"
+                                                    alt="" class="w-100 round-img">
+                                            </a></div>
+                                        <div>jai shri kirshna	 <br />ID: 645270213</div>
+                                        <div style="text-align: end;">150,000 <img src="img/Beans icon.png" alt=""
+                                                class="beans-icon"></div>
+                                    </div>
+                                    <div class="leaderboard-strip">
+                                        <div>11. </div>
+                                        <div><a href="http://www.kktv1.com/m/?roomid=628458858">
+                                                <img src="../common/img/kk_head_avatar_men.png" id="u_img_628458858"
+                                                    alt="" class="w-100 round-img">
+                                            </a></div>
+                                        <div>💗 💗 Bye bye 💕💕	 <br />ID: 628458858</div>
+                                        <div style="text-align: end;">143,000 <img src="img/Beans icon.png" alt=""
+                                                class="beans-icon"></div>
+                                    </div>
+                                    <div class="leaderboard-strip">
+                                        <div>12. </div>
+                                        <div><a href="http://www.kktv1.com/m/?roomid=637597957">
+                                                <img src="../common/img/kk_head_avatar_men.png" id="u_img_637597957"
+                                                    alt="" class="w-100 round-img">
+                                            </a></div>
+                                        <div>$@&(+/""@$21$	 <br />ID: 637597957</div>
+                                        <div style="text-align: end;">135,000 <img src="img/Beans icon.png" alt=""
+                                                class="beans-icon"></div>
+                                    </div>
+                                    <div class="leaderboard-strip">
+                                        <div>13. </div>
+                                        <div><a href="http://www.kktv1.com/m/?roomid=611128465">
+                                                <img src="../common/img/kk_head_avatar_men.png" id="u_img_611128465"
+                                                    alt="" class="w-100 round-img">
+                                            </a></div>
+                                        <div>Xpress king	 <br />ID: 611128465</div>
+                                        <div style="text-align: end;">105,300 <img src="img/Beans icon.png" alt=""
+                                                class="beans-icon"></div>
+                                    </div>
+                                    <div class="leaderboard-strip">
+                                        <div>14. </div>
+                                        <div><a href="http://www.kktv1.com/m/?roomid=640753903">
+                                                <img src="../common/img/kk_head_avatar_men.png" id="u_img_640753903"
+                                                    alt="" class="w-100 round-img">
+                                            </a></div>
+                                        <div>Ꮋꭼꭺꭱꭲ 💔 Ꮋꭺꮯꮶꭼꭱ		 <br />ID: 640753903</div>
+                                        <div style="text-align: end;">100,200 <img src="img/Beans icon.png" alt=""
+                                                class="beans-icon"></div>
+                                    </div>
+                                    <div class="leaderboard-strip">
+                                        <div>15. </div>
+                                        <div><a href="http://www.kktv1.com/m/?roomid=612098259">
+                                                <img src="../common/img/kk_head_avatar_men.png" id="u_img_612098259"
+                                                    alt="" class="w-100 round-img">
+                                            </a></div>
+                                        <div>💎 🅷🅴🅴🆁💎	 <br />ID: 612098259</div>
+                                        <div style="text-align: end;">100,000 <img src="img/Beans icon.png" alt=""
+                                                class="beans-icon"></div>
+                                    </div>
+                                    <div class="leaderboard-strip">
+                                        <div>16. </div>
+                                        <div><a href="http://www.kktv1.com/m/?roomid=602473433">
+                                                <img src="../common/img/kk_head_avatar_men.png" id="u_img_602473433"
+                                                    alt="" class="w-100 round-img">
+                                            </a></div>
+                                        <div>❤️ A$h!$h ❤️<br />ID: 602473433</div>
+                                        <div style="text-align: end;">75,000 <img src="img/Beans icon.png" alt=""
+                                                class="beans-icon"></div>
+                                    </div>
+                                    <div class="leaderboard-strip">
+                                        <div>17. </div>
+                                        <div><a href="http://www.kktv1.com/m/?roomid=610190566">
+                                                <img src="../common/img/kk_head_avatar_men.png" id="u_img_610190566"
+                                                    alt="" class="w-100 round-img">
+                                            </a></div>
+                                        <div>❣️🅐🅝🅙🅐🅛🅘❣️	<br />ID: 610190566</div>
+                                        <div style="text-align: end;">52,100 <img src="img/Beans icon.png" alt=""
+                                                class="beans-icon"></div>
+                                    </div>
+                                    <div class="leaderboard-strip">
+                                        <div>18. </div>
+                                        <div><a href="http://www.kktv1.com/m/?roomid=589957577">
+                                                <img src="../common/img/kk_head_avatar_men.png" id="u_img_589957577"
+                                                    alt="" class="w-100 round-img">
+                                            </a></div>
+                                        <div>𝐋𝐔𝐂𝐇𝐈𝐅 𝐔.𝐀.E<br />ID: 589957577</div>
+                                        <div style="text-align: end;">51,750 <img src="img/Beans icon.png" alt=""
+                                                class="beans-icon"></div>
+                                    </div>
+                                    <div class="leaderboard-strip">
+                                        <div>19. </div>
+                                        <div><a href="http://www.kktv1.com/m/?roomid=639199023">
+                                                <img src="../common/img/kk_head_avatar_men.png" id="u_img_639199023"
+                                                    alt="" class="w-100 round-img">
+                                            </a></div>
+                                        <div>🔱𝙍𝙖𝙠𝙨𝙝💞<br />ID: 639199023</div>
+                                        <div style="text-align: end;">50,000<img src="img/Beans icon.png" alt=""
+                                                class="beans-icon"></div>
+                                    </div>
+                                    <div class="leaderboard-strip">
+                                        <div>20. </div>
+                                        <div><a href="http://www.kktv1.com/m/?roomid=616809802">
+                                                <img src="../common/img/kk_head_avatar_men.png" id="u_img_616809802"
+                                                    alt="" class="w-100 round-img">
+                                            </a></div>
+                                        <div>☠ ＲＯＣＫＹ ☠︎<br />ID: 616809802</div>
+                                        <div style="text-align: end;">45,000<img src="img/Beans icon.png" alt=""
+                                                class="beans-icon"></div>
+                                    </div>
+                                    <div class="leaderboard-strip">
+                                        <div>21. </div>
+                                        <div><a href="http://www.kktv1.com/m/?roomid=606218003">
+                                                <img src="../common/img/kk_head_avatar_men.png" id="u_img_606218003"
+                                                    alt="" class="w-100 round-img">
+                                            </a></div>
+                                        <div>🚭 𝐌 𝐀 𝐒 𝐔 𝐌🚭<br />ID: 606218003</div>
+                                        <div style="text-align: end;">30,000<img src="img/Beans icon.png" alt=""
+                                                class="beans-icon"></div>
+                                    </div>
+                                    <div class="leaderboard-strip">
+                                        <div>22. </div>
+                                        <div><a href="http://www.kktv1.com/m/?roomid=567576633">
+                                                <img src="../common/img/kk_head_avatar_men.png" id="u_img_567576633"
+                                                    alt="" class="w-100 round-img">
+                                            </a></div>
+                                        <div>❤️Nisashri❤️	<br />ID: 567576633</div>
+                                        <div style="text-align: end;">25,000<img src="img/Beans icon.png" alt=""
+                                                class="beans-icon"></div>
+                                    </div>
+                                    <div class="leaderboard-strip">
+                                        <div>23. </div>
+                                        <div><a href="http://www.kktv1.com/m/?roomid=560177617">
+                                                <img src="../common/img/kk_head_avatar_men.png" id="u_img_560177617"
+                                                    alt="" class="w-100 round-img">
+                                            </a></div>
+                                        <div>BeOne Agency 👊	<br />ID: 560177617</div>
+                                        <div style="text-align: end;">25,000<img src="img/Beans icon.png" alt=""
+                                                class="beans-icon"></div>
+                                    </div>
+                                    <div class="leaderboard-strip">
+                                        <div>24. </div>
+                                        <div><a href="http://www.kktv1.com/m/?roomid=551602148">
+                                                <img src="../common/img/kk_head_avatar_men.png" id="u_img_551602148"
+                                                    alt="" class="w-100 round-img">
+                                            </a></div>
+                                        <div>꧁༺candy༻꧂	<br />ID: 551602148</div>
+                                        <div style="text-align: end;">20,500<img src="img/Beans icon.png" alt=""
+                                                class="beans-icon"></div>
+                                    </div>
+                                    <div class="leaderboard-strip">
+                                        <div>25. </div>
+                                        <div><a href="http://www.kktv1.com/m/?roomid=629942390">
+                                                <img src="../common/img/kk_head_avatar_men.png" id="u_img_629942390"
+                                                    alt="" class="w-100 round-img">
+                                            </a></div>
+                                        <div>🦋⃟✮⃝sp	<br />ID: 629942390</div>
+                                        <div style="text-align: end;">20,000<img src="img/Beans icon.png" alt=""
+                                                class="beans-icon"></div>
+                                    </div>
+                                    <div class="leaderboard-strip">
+                                        <div>26. </div>
+                                        <div><a href="http://www.kktv1.com/m/?roomid=614495759">
+                                                <img src="../common/img/kk_head_avatar_men.png" id="u_img_614495759"
+                                                    alt="" class="w-100 round-img">
+                                            </a></div>
+                                        <div>💘Priya💘<br />ID: 614495759</div>
+                                        <div style="text-align: end;">14,000<img src="img/Beans icon.png" alt=""
+                                                class="beans-icon"></div>
+                                    </div>
+                                    <div class="leaderboard-strip">
+                                        <div>27. </div>
+                                        <div><a href="http://www.kktv1.com/m/?roomid=590143266">
+                                                <img src="../common/img/kk_head_avatar_men.png" id="u_img_590143266"
+                                                    alt="" class="w-100 round-img">
+                                            </a></div>
+                                        <div>🌺🌸🌻Flower-¢?	<br />ID: 590143266</div>
+                                        <div style="text-align: end;">13,050<img src="img/Beans icon.png" alt=""
+                                                class="beans-icon"></div>
+                                    </div>
+                                    <div class="leaderboard-strip">
+                                        <div>28. </div>
+                                        <div><a href="http://www.kktv1.com/m/?roomid=614585299">
+                                                <img src="../common/img/kk_head_avatar_men.png" id="u_img_614585299"
+                                                    alt="" class="w-100 round-img">
+                                            </a></div>
+                                        <div>💐 Diana 💐<br />ID: 614585299</div>
+                                        <div style="text-align: end;">11,000<img src="img/Beans icon.png" alt=""
+                                                class="beans-icon"></div>
+                                    </div>
+                                    <div class="leaderboard-strip">
+                                        <div>29. </div>
+                                        <div><a href="http://www.kktv1.com/m/?roomid=645208177">
+                                                <img src="../common/img/kk_head_avatar_men.png" id="u_img_645208177"
+                                                    alt="" class="w-100 round-img">
+                                            </a></div>
+                                        <div>manoj_Sahay	<br />ID: 645208177</div>
+                                        <div style="text-align: end;">11,000<img src="img/Beans icon.png" alt=""
+                                                class="beans-icon"></div>
+                                    </div>
+                                    <div class="leaderboard-strip">
+                                        <div>30. </div>
+                                        <div><a href="http://www.kktv1.com/m/?roomid=585844409">
+                                                <img src="../common/img/kk_head_avatar_men.png" id="u_img_585844409"
+                                                    alt="" class="w-100 round-img">
+                                            </a></div>
+                                        <div>❤Rambo Roushan ❤	<br />ID: 585844409</div>
+                                        <div style="text-align: end;">10,000<img src="img/Beans icon.png" alt=""
+                                                class="beans-icon"></div>
+                                    </div>
+                                    <div class="leaderboard-strip">
+                                        <div>31. </div>
+                                        <div><a href="http://www.kktv1.com/m/?roomid=560791748">
+                                                <img src="../common/img/kk_head_avatar_men.png" id="u_img_560791748"
+                                                    alt="" class="w-100 round-img">
+                                            </a></div>
+                                        <div>Lucifer🔥	<br />ID: 560791748</div>
+                                        <div style="text-align: end;">10,000<img src="img/Beans icon.png" alt=""
+                                                class="beans-icon"></div>
+                                    </div>
+                                    <div class="leaderboard-strip">
+                                        <div>32. </div>
+                                        <div><a href="http://www.kktv1.com/m/?roomid=591421384">
+                                                <img src="../common/img/kk_head_avatar_men.png" id="u_img_591421384"
+                                                    alt="" class="w-100 round-img">
+                                            </a></div>
+                                        <div>🤡 🇯 👅 🇰 🇪 🇷 🤡		<br />ID: 591421384</div>
+                                        <div style="text-align: end;">10,000<img src="img/Beans icon.png" alt=""
+                                                class="beans-icon"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="userLeaderboardRound2" class="demo05">
+                        <div class="leaderboard-section w-92" style="margin-top: 15vw;">
+                            <div class="schedule-tag w-55">
+                                <img src="./img/tag/Leaderboard tag.png" alt="" class="w-100">
+                            </div>
+                            <div class="leaderboard-data">
+                                <div class="leaderboard-top3">
+                                    <div>
+                                        <div class="top3-profile-img">
+                                            <a href="http://www.kktv1.com/m/?roomid=608559171">
+                                                <img src="../common/img/kk_head_avatar_men.png" id="u_img_608559171"
+                                                    alt="" class="w-100 round-img">
+                                            </a>
+                                        </div>
+                                        <div class="top2-data top123-data">
+                                            <div>Tejaswini Pujari</div>
+                                            <div>ID:00000000</div>
+                                            <div>00000000 <img src="./img/Beans icon.png" alt="" class="beans-icon">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="top3-profile-img">
+                                            <a href="http://www.kktv1.com/m/?roomid=579778288">
+                                                <img src="../common/img/kk_head_avatar_men.png" id="u_img_579778288"
+                                                    alt="" class="w-100 round-img">
+                                            </a>
+                                        </div>
+                                        <div class="top1-data top123-data">
+                                            <div>Tejaswini Pujari</div>
+                                            <div>ID:00000000</div>
+                                            <div>00000000 <img src="./img/Beans icon.png" alt="" class="beans-icon">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="top3-profile-img">
+                                            <a href="http://www.kktv1.com/m/?roomid=551574312">
+                                                <img src="../common/img/kk_head_avatar_men.png" id="u_img_551574312"
+                                                    alt="" class="w-100 round-img">
+                                            </a>
+                                        </div>
+                                        <div class="top3-data top123-data">
+                                            <div>Tejaswini Pujari</div>
+                                            <div>ID:00000000</div>
+                                            <div>00000000 <img src="./img/Beans icon.png" alt="" class="beans-icon">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="all-leaderboard-strip">
+                                    <div class="leaderboard-strip">
+                                        <div>4. </div>
+                                        <div><a href="http://www.kktv1.com/m/?roomid=626411828">
+                                                <img src="../common/img/kk_head_avatar_men.png" id="u_img_626411828"
+                                                    alt="" class="w-100 round-img">
+                                            </a></div>
+                                        <div>Tejaswini Pujari<br />ID: 0000000</div>
+                                        <div style="text-align: end;">00000000 <img src="img/Beans icon.png" alt=""
+                                                class="beans-icon"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="talentOnbtn1" class="demo001">
+                <div>
+                    <div class="tabr2 tabr1 w-85 p-4" style="margin-bottom: -16vw;">
+                        <button class="tdemo04" onclick="tinfofunc045(event, 'talentLeaderboardRound1')"
+                            id="tmybutton045">
+                            <img class="w-100" src="./img/btn/Round 1 select btn.png" alt="" />
+                        </button>
+                        <button class="tdemo04" onclick="tinfofunc045(event, 'talentLeaderboardRound2')" disabled>
+                            <img class="w-100" src="./img/btn/Round 2 select btn.png" alt="" />
+                        </button>
+                    </div>
+                    <div id="talentLeaderboardRound1" class="tdemo05">
+                        <div>
+                            <div class="category-btn-bg w-85"></div>
+                            <div class="tabr2 tabr3 w-90">
+                                <button class="tdemo06" onclick="tinfofunc067(event, 'talentLeaderboardRound1dance')"
+                                    id="tmybutton067">
+                                    <img class="w-100" src="./img/btn/Garba fusion btn.png" alt="" />
+                                </button>
+                                <button class="tdemo06" onclick="tinfofunc067(event, 'talentLeaderboardRound1singing')">
+                                    <img class="w-100" src="./img/btn/Singing battle btn.png" alt="" />
+                                </button>
+                                <button class="tdemo06" onclick="tinfofunc067(event, 'talentLeaderboardRound1fashion')">
+                                    <img class="w-100" src="./img/btn/fashion battle btn.png" alt="" />
+                                </button>
+                            </div>
+                            <div id="talentLeaderboardRound1dance" class="tdemo07">
+                                <div class="leaderboard-section w-92">
+                                    <div class="schedule-tag w-55">
+                                        <img src="./img/tag/Leaderboard tag.png" alt="" class="w-100">
+                                    </div>
+                                    <div class="leaderboard-data">
+                                        <div class="leaderboard-top3">
+                                            <div>
+                                                <div class="top3-profile-img">
+                                                    <a href="http://www.kktv1.com/m/?roomid=644707786">
+                                                        <img src="../common/img/kk_head_avatar_men.png"
+                                                            id="u_img_644707786" alt="" class="w-100 round-img">
+                                                    </a>
+                                                </div>
+                                                <div class="top2-data top123-data">
+                                                    <div>𝐉𝐀𝐀𝐍𝐔 💋</div>
+                                                    <div>ID:644707786</div>
+                                                    <div>200,550 <img src="./img/Beans icon.png" alt=""
+                                                            class="beans-icon"></div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="top3-profile-img">
+                                                    <a href="http://www.kktv1.com/m/?roomid=583520006">
+                                                        <img src="../common/img/kk_head_avatar_men.png"
+                                                            id="u_img_583520006" alt="" class="w-100 round-img">
+                                                    </a>
+                                                </div>
+                                                <div class="top1-data top123-data">
+                                                    <div>Yashi💋💋❤️❤️</div>
+                                                    <div>ID:583520006</div>
+                                                    <div>305,210 <img src="./img/Beans icon.png" alt=""
+                                                            class="beans-icon"></div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="top3-profile-img">
+                                                    <a href="http://www.kktv1.com/m/?roomid=614097927">
+                                                        <img src="../common/img/kk_head_avatar_men.png"
+                                                            id="u_img_614097927" alt="" class="w-100 round-img">
+                                                    </a>
+                                                </div>
+                                                <div class="top3-data top123-data">
+                                                    <div>🦢₴᭄ꦿ 𝙈𝙊𝙉𝘼🍡</div>
+                                                    <div>ID:614097927</div>
+                                                    <div>52,910 <img src="./img/Beans icon.png" alt=""
+                                                            class="beans-icon"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="all-leaderboard-strip">
+                                            <div class="leaderboard-strip">
+                                                <div>4. </div>
+                                                <div><a href="http://www.kktv1.com/m/?roomid=635752070">
+                                                        <img src="../common/img/kk_head_avatar_men.png"
+                                                            id="u_img_635752070" alt="" class="w-100 round-img">
+                                                    </a></div>
+                                                <div>✓®™Soni.....❤️👀💃<br />ID: 635752070</div>
+                                                <div style="text-align: end;">13,820 <img src="img/Beans icon.png"
+                                                        alt="" class="beans-icon"></div>
+                                            </div>
+                                            <div class="leaderboard-strip">
+                                                <div>5. </div>
+                                                <div><a href="http://www.kktv1.com/m/?roomid=633447348">
+                                                        <img src="../common/img/kk_head_avatar_men.png"
+                                                            id="u_img_633447348" alt="" class="w-100 round-img">
+                                                    </a></div>
+                                                <div>S᭄❤️ﮩﮩ٨ـTEDDYـﮩﮩ٨ـ❤️<br />ID: 633447348</div>
+                                                <div style="text-align: end;">620 <img src="img/Beans icon.png"
+                                                        alt="" class="beans-icon"></div>
+                                            </div>
+                                            <div class="leaderboard-strip">
+                                                <div>6. </div>
+                                                <div><a href="http://www.kktv1.com/m/?roomid=605056219">
+                                                        <img src="../common/img/kk_head_avatar_men.png"
+                                                            id="u_img_605056219" alt="" class="w-100 round-img">
+                                                    </a></div>
+                                                <div>💞S᭄sRiStï?<br />ID: 605056219</div>
+                                                <div style="text-align: end;">50 <img src="img/Beans icon.png"
+                                                        alt="" class="beans-icon"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="talentLeaderboardRound1singing" class="tdemo07">
+                                <div class="leaderboard-section w-92">
+                                    <div class="schedule-tag w-55">
+                                        <img src="./img/tag/Leaderboard tag.png" alt="" class="w-100">
+                                    </div>
+                                    <div class="leaderboard-data">
+                                        <div class="leaderboard-top3">
+                                            <div>
+                                                <div class="top3-profile-img">
+                                                    <a href="http://www.kktv1.com/m/?roomid=561580330">
+                                                        <img src="../common/img/kk_head_avatar_men.png"
+                                                            id="u_img_561580330" alt="" class="w-100 round-img">
+                                                    </a>
+                                                </div>
+                                                <div class="top2-data top123-data">
+                                                    <div>🎵 ⃢🎸ᴠɪʀᴀᴊ™?✔️</div>
+                                                    <div>ID:561580330</div>
+                                                    <div>342,580 <img src="./img/Beans icon.png" alt=""
+                                                            class="beans-icon"></div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="top3-profile-img">
+                                                    <a href="http://www.kktv1.com/m/?roomid=590660267">
+                                                        <img src="../common/img/kk_head_avatar_men.png"
+                                                            id="u_img_590660267" alt="" class="w-100 round-img">
+                                                    </a>
+                                                </div>
+                                                <div class="top1-data top123-data">
+                                                    <div>❤️🇯 🇪 🇳 🇳 🇾 ❤️</div>
+                                                    <div>ID:590660267</div>
+                                                    <div>1,011,360 <img src="./img/Beans icon.png" alt=""
+                                                            class="beans-icon"></div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="top3-profile-img">
+                                                    <a href="http://www.kktv1.com/m/?roomid=623248845">
+                                                        <img src="../common/img/kk_head_avatar_men.png"
+                                                            id="u_img_623248845" alt="" class="w-100 round-img">
+                                                    </a>
+                                                </div>
+                                                <div class="top3-data top123-data">
+                                                    <div>🦋⃟✮⃝🇲u̷s̷k̷a̷n̷𝄟⃝)</div>
+                                                    <div>ID:623248845</div>
+                                                    <div>155,530 <img src="./img/Beans icon.png" alt=""
+                                                            class="beans-icon"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="all-leaderboard-strip">
+                                            <div class="leaderboard-strip">
+                                                <div>4. </div>
+                                                <div><a href="http://www.kktv1.com/m/?roomid=628264282">
+                                                        <img src="../common/img/kk_head_avatar_men.png"
+                                                            id="u_img_628264282" alt="" class="w-100 round-img">
+                                                    </a></div>
+                                                <div>🎸Siya Singh 🎸🙂<br />ID: 628264282</div>
+                                                <div style="text-align: end;">150,100 <img src="img/Beans icon.png"
+                                                        alt="" class="beans-icon"></div>
+                                            </div>
+                                            <div class="leaderboard-strip">
+                                                <div>5. </div>
+                                                <div><a href="http://www.kktv1.com/m/?roomid=625793134">
+                                                        <img src="../common/img/kk_head_avatar_men.png"
+                                                            id="u_img_625793134" alt="" class="w-100 round-img">
+                                                    </a></div>
+                                                <div>꧁𓊈𒆜🅼🆄🆁🅻🅸𒆜𓊉꧂<br />ID: 625793134</div>
+                                                <div style="text-align: end;">115,960<img src="img/Beans icon.png"
+                                                        alt="" class="beans-icon"></div>
+                                            </div>
+                                            <div class="leaderboard-strip">
+                                                <div>6. </div>
+                                                <div><a href="http://www.kktv1.com/m/?roomid=630758906">
+                                                        <img src="../common/img/kk_head_avatar_men.png"
+                                                            id="u_img_630758906" alt="" class="w-100 round-img">
+                                                    </a></div>
+                                                <div>shweta gupta 🦋<br />ID: 630758906</div>
+                                                <div style="text-align: end;">100,780<img src="img/Beans icon.png"
+                                                        alt="" class="beans-icon"></div>
+                                            </div>
+                                            <div class="leaderboard-strip">
+                                                <div>7. </div>
+                                                <div><a href="http://www.kktv1.com/m/?roomid=631658884">
+                                                        <img src="../common/img/kk_head_avatar_men.png"
+                                                            id="u_img_631658884" alt="" class="w-100 round-img">
+                                                    </a></div>
+                                                <div>🎤SiNGER💫FAiZAAL🎤<br />ID: 631658884</div>
+                                                <div style="text-align: end;">25,810 <img src="img/Beans icon.png"
+                                                        alt="" class="beans-icon"></div>
+                                            </div>
+                                            <div class="leaderboard-strip">
+                                                <div>8. </div>
+                                                <div><a href="http://www.kktv1.com/m/?roomid=642510069">
+                                                        <img src="../common/img/kk_head_avatar_men.png"
+                                                            id="u_img_642510069" alt="" class="w-100 round-img">
+                                                    </a></div>
+                                                <div>🌹Ꮥ💍Ɲ 卂 ᙏ🌹<br />ID: 642510069</div>
+                                                <div style="text-align: end;">14,000 <img src="img/Beans icon.png"
+                                                        alt="" class="beans-icon"></div>
+                                            </div>
+                                            <div class="leaderboard-strip">
+                                                <div>9. </div>
+                                                <div><a href="http://www.kktv1.com/m/?roomid=619032055">
+                                                        <img src="../common/img/kk_head_avatar_men.png"
+                                                            id="u_img_619032055" alt="" class="w-100 round-img">
+                                                    </a></div>
+                                                <div>Versatile_PNK🖤<br />ID: 619032055</div>
+                                                <div style="text-align: end;">1,010 <img src="img/Beans icon.png"
+                                                        alt="" class="beans-icon"></div>
+                                            </div>
+                                            <div class="leaderboard-strip">
+                                                <div>10. </div>
+                                                <div><a href="http://www.kktv1.com/m/?roomid=605371677">
+                                                        <img src="../common/img/kk_head_avatar_men.png"
+                                                            id="u_img_605371677" alt="" class="w-100 round-img">
+                                                    </a></div>
+                                                <div>DILNASHI 🎧<br />ID: 605371677</div>
+                                                <div style="text-align: end;">0<img src="img/Beans icon.png"
+                                                        alt="" class="beans-icon"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="talentLeaderboardRound1fashion" class="tdemo07">
+                                <div class="leaderboard-section w-92">
+                                    <div class="schedule-tag w-55">
+                                        <img src="./img/tag/Leaderboard tag.png" alt="" class="w-100">
+                                    </div>
+                                    <div class="leaderboard-data">
+                                        <div class="leaderboard-top3">
+                                            <div>
+                                                <div class="top3-profile-img">
+                                                    <a href="http://www.kktv1.com/m/?roomid=625028412">
+                                                        <img src="../common/img/kk_head_avatar_men.png"
+                                                            id="u_img_625028412" alt="" class="w-100 round-img">
+                                                    </a>
+                                                </div>
+                                                <div class="top2-data top123-data">
+                                                    <div>😡👑ợµэи🐼✨🔥</div>
+                                                    <div>ID:625028412</div>
+                                                    <div>1,301,250 <img src="./img/Beans icon.png" alt=""
+                                                            class="beans-icon"></div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="top3-profile-img">
+                                                    <a href="http://www.kktv1.com/m/?roomid=614718343">
+                                                        <img src="../common/img/kk_head_avatar_men.png"
+                                                            id="u_img_614718343" alt="" class="w-100 round-img">
+                                                    </a>
+                                                </div>
+                                                <div class="top1-data top123-data">
+                                                    <div>💯༺кαнєяιє༻💯</div>
+                                                    <div>ID:614718343</div>
+                                                    <div>1,775,000 <img src="./img/Beans icon.png" alt=""
+                                                            class="beans-icon"></div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="top3-profile-img">
+                                                    <a href="http://www.kktv1.com/m/?roomid=584004453">
+                                                        <img src="../common/img/kk_head_avatar_men.png"
+                                                            id="u_img_584004453" alt="" class="w-100 round-img">
+                                                    </a>
+                                                </div>
+                                                <div class="top3-data top123-data">
+                                                    <div>🎙️ Singer Sarita 🎧</div>
+                                                    <div>ID:584004453</div>
+                                                    <div>13,510 <img src="./img/Beans icon.png" alt=""
+                                                            class="beans-icon"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="all-leaderboard-strip">
+                                            <div class="leaderboard-strip">
+                                                <div>4. </div>
+                                                <div><a href="http://www.kktv1.com/m/?roomid=634167880">
+                                                        <img src="../common/img/kk_head_avatar_men.png"
+                                                            id="u_img_634167880" alt="" class="w-100 round-img">
+                                                    </a></div>
+                                                <div>꧁༺ɨȶ'ֆ ʍɛɛռǟӄֆɦɨ༻꧂<br />ID: 634167880</div>
+                                                <div style="text-align: end;">0 <img src="img/Beans icon.png"
+                                                        alt="" class="beans-icon"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="talentLeaderboardRound2" class="tdemo05">
+                        <div>
+                            <div class="category-btn-bg w-85"></div>
+                            <div class="tabr2 tabr3 w-90">
+                                <button class="tdemo08" onclick="tinfofunc089(event, 'talentLeaderboardRound2dance')"
+                                    id="tmybutton089">
+                                    <img class="w-100" src="./img/btn/Garba fusion btn.png" alt="" />
+                                </button>
+                                <button class="tdemo08" onclick="tinfofunc089(event, 'talentLeaderboardRound2singing')">
+                                    <img class="w-100" src="./img/btn/Singing battle btn.png" alt="" />
+                                </button>
+                                <button class="tdemo08" onclick="tinfofunc089(event, 'talentLeaderboardRound2fashion')">
+                                    <img class="w-100" src="./img/btn/fashion battle btn.png" alt="" />
+                                </button>
+                            </div>
+                            <div id="talentLeaderboardRound2dance" class="tdemo09">
+                                <div class="leaderboard-section w-92">
+                                    <div class="schedule-tag w-55">
+                                        <img src="./img/tag/Leaderboard tag.png" alt="" class="w-100">
+                                    </div>
+                                    <div class="leaderboard-data">
+                                        <div class="leaderboard-top3">
+                                            <div>
+                                                <div class="top3-profile-img">
+                                                    <a href="http://www.kktv1.com/m/?roomid=595656284">
+                                                        <img src="../common/img/kk_head_avatar_men.png"
+                                                            id="u_img_595656284" alt="" class="w-100 round-img">
+                                                    </a>
+                                                </div>
+                                                <div class="top2-data top123-data">
+                                                    <div>Tejaswini Pujari</div>
+                                                    <div>ID:00000000</div>
+                                                    <div>00000000 <img src="./img/Beans icon.png" alt=""
+                                                            class="beans-icon"></div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="top3-profile-img">
+                                                    <a href="http://www.kktv1.com/m/?roomid=620117041">
+                                                        <img src="../common/img/kk_head_avatar_men.png"
+                                                            id="u_img_620117041" alt="" class="w-100 round-img">
+                                                    </a>
+                                                </div>
+                                                <div class="top1-data top123-data">
+                                                    <div>Tejaswini Pujari</div>
+                                                    <div>ID:00000000</div>
+                                                    <div>00000000 <img src="./img/Beans icon.png" alt=""
+                                                            class="beans-icon"></div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="top3-profile-img">
+                                                    <a href="http://www.kktv1.com/m/?roomid=560091426">
+                                                        <img src="../common/img/kk_head_avatar_men.png"
+                                                            id="u_img_560091426" alt="" class="w-100 round-img">
+                                                    </a>
+                                                </div>
+                                                <div class="top3-data top123-data">
+                                                    <div>Tejaswini Pujari</div>
+                                                    <div>ID:00000000</div>
+                                                    <div>00000000 <img src="./img/Beans icon.png" alt=""
+                                                            class="beans-icon"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="all-leaderboard-strip">
+                                            <div class="leaderboard-strip">
+                                                <div>4. </div>
+                                                <div><a href="http://www.kktv1.com/m/?roomid=559906113">
+                                                        <img src="../common/img/kk_head_avatar_men.png"
+                                                            id="u_img_559906113" alt="" class="w-100 round-img">
+                                                    </a></div>
+                                                <div>Tejaswini Pujari<br />ID: 0000000</div>
+                                                <div style="text-align: end;">00000000 <img src="img/Beans icon.png"
+                                                        alt="" class="beans-icon"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="talentLeaderboardRound2singing" class="tdemo09">
+                                <div class="leaderboard-section w-92">
+                                    <div class="schedule-tag w-55">
+                                        <img src="./img/tag/Leaderboard tag.png" alt="" class="w-100">
+                                    </div>
+                                    <div class="leaderboard-data">
+                                        <div class="leaderboard-top3">
+                                            <div>
+                                                <div class="top3-profile-img">
+                                                    <a href="http://www.kktv1.com/m/?roomid=602780845">
+                                                        <img src="../common/img/kk_head_avatar_men.png"
+                                                            id="u_img_602780845" alt="" class="w-100 round-img">
+                                                    </a>
+                                                </div>
+                                                <div class="top2-data top123-data">
+                                                    <div>Tejaswini Pujari</div>
+                                                    <div>ID:00000000</div>
+                                                    <div>00000000 <img src="./img/Beans icon.png" alt=""
+                                                            class="beans-icon"></div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="top3-profile-img">
+                                                    <a href="http://www.kktv1.com/m/?roomid=595538998">
+                                                        <img src="../common/img/kk_head_avatar_men.png"
+                                                            id="u_img_595538998" alt="" class="w-100 round-img">
+                                                    </a>
+                                                </div>
+                                                <div class="top1-data top123-data">
+                                                    <div>Tejaswini Pujari</div>
+                                                    <div>ID:00000000</div>
+                                                    <div>00000000 <img src="./img/Beans icon.png" alt=""
+                                                            class="beans-icon"></div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="top3-profile-img">
+                                                    <a href="http://www.kktv1.com/m/?roomid=619032055">
+                                                        <img src="../common/img/kk_head_avatar_men.png"
+                                                            id="u_img_619032055" alt="" class="w-100 round-img">
+                                                    </a>
+                                                </div>
+                                                <div class="top3-data top123-data">
+                                                    <div>Tejaswini Pujari</div>
+                                                    <div>ID:00000000</div>
+                                                    <div>00000000 <img src="./img/Beans icon.png" alt=""
+                                                            class="beans-icon"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="all-leaderboard-strip">
+                                            <div class="leaderboard-strip">
+                                                <div>4. </div>
+                                                <div><a href="http://www.kktv1.com/m/?roomid=628264282">
+                                                        <img src="../common/img/kk_head_avatar_men.png"
+                                                            id="u_img_628264282" alt="" class="w-100 round-img">
+                                                    </a></div>
+                                                <div>Tejaswini Pujari<br />ID: 0000000</div>
+                                                <div style="text-align: end;">00000000 <img src="img/Beans icon.png"
+                                                        alt="" class="beans-icon"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="talentLeaderboardRound2fashion" class="tdemo09">
+                                <div class="leaderboard-section w-92">
+                                    <div class="schedule-tag w-55">
+                                        <img src="./img/tag/Leaderboard tag.png" alt="" class="w-100">
+                                    </div>
+                                    <div class="leaderboard-data">
+                                        <div class="leaderboard-top3">
+                                            <div>
+                                                <div class="top3-profile-img">
+                                                    <a href="http://www.kktv1.com/m/?roomid=631543176">
+                                                        <img src="../common/img/kk_head_avatar_men.png"
+                                                            id="u_img_631543176" alt="" class="w-100 round-img">
+                                                    </a>
+                                                </div>
+                                                <div class="top2-data top123-data">
+                                                    <div>Tejaswini Pujari</div>
+                                                    <div>ID:00000000</div>
+                                                    <div>00000000 <img src="./img/Beans icon.png" alt=""
+                                                            class="beans-icon"></div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="top3-profile-img">
+                                                    <a href="http://www.kktv1.com/m/?roomid=633906977">
+                                                        <img src="../common/img/kk_head_avatar_men.png"
+                                                            id="u_img_633906977" alt="" class="w-100 round-img">
+                                                    </a>
+                                                </div>
+                                                <div class="top1-data top123-data">
+                                                    <div>Tejaswini Pujari</div>
+                                                    <div>ID:00000000</div>
+                                                    <div>00000000 <img src="./img/Beans icon.png" alt=""
+                                                            class="beans-icon"></div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="top3-profile-img">
+                                                    <a href="http://www.kktv1.com/m/?roomid=641336042">
+                                                        <img src="../common/img/kk_head_avatar_men.png"
+                                                            id="u_img_641336042" alt="" class="w-100 round-img">
+                                                    </a>
+                                                </div>
+                                                <div class="top3-data top123-data">
+                                                    <div>Tejaswini Pujari</div>
+                                                    <div>ID:00000000</div>
+                                                    <div>00000000 <img src="./img/Beans icon.png" alt=""
+                                                            class="beans-icon"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="all-leaderboard-strip">
+                                            <div class="leaderboard-strip">
+                                                <div>4. </div>
+                                                <div><a href="http://www.kktv1.com/m/?roomid=574252328">
+                                                        <img src="../common/img/kk_head_avatar_men.png"
+                                                            id="u_img_574252328" alt="" class="w-100 round-img">
+                                                    </a></div>
+                                                <div>Tejaswini Pujari<br />ID: 0000000</div>
+                                                <div style="text-align: end;">00000000 <img src="img/Beans icon.png"
+                                                        alt="" class="beans-icon"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer center">All rights reserved by StreamKar</div>
+    </div>
+
+    <script type="text/javascript" src="js/jquery.3.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            get_user_img(636327711);
+            get_user_img(566058662);
+            get_user_img(552954299);
+            get_user_img(634675041);
+            get_user_img(585648528);
+            get_user_img(644567497);
+            get_user_img(625102031); //
+            get_user_img(569210640); //
+            get_user_img(638040683);
+            get_user_img(645270213); //
+            get_user_img(628458858);
+            get_user_img(637597957);
+            get_user_img(611128465); //
+            get_user_img(640753903);
+            get_user_img(612098259); //
+            get_user_img(602473433);
+            get_user_img(610190566);
+            get_user_img(589957577);
+            get_user_img(639199023);
+            get_user_img(616809802);
+            get_user_img(606218003);
+            get_user_img(567576633);
+            get_user_img(560177617); //
+            get_user_img(551602148); //
+            get_user_img(629942390);
+            get_user_img(614495759);
+            get_user_img(590143266);
+            get_user_img(614585299);
+            get_user_img(645208177);
+            get_user_img(585844409);
+            get_user_img(560791748);
+            get_user_img(591421384);
+
+            // ------
+            get_user_img(583520006);
+            get_user_img(644707786);
+            get_user_img(614097927);
+            get_user_img(635752070);
+            get_user_img(633447348);
+            get_user_img(605056219);
+
+            get_user_img(590660267);
+            get_user_img(561580330);
+            get_user_img(623248845);
+            get_user_img(628264282);
+            get_user_img(625793134);
+            get_user_img(630758906); //
+            get_user_img(631658884); //
+            get_user_img(642510069);
+            get_user_img(619032055); //
+            get_user_img(605371677);
+
+            get_user_img(614718343); //
+            get_user_img(625028412);
+            get_user_img(584004453); //
+            get_user_img(634167880);
+        });
+    </script>
+</body>
+
+</html>
