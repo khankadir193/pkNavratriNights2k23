@@ -207,6 +207,14 @@ body {
     column-gap: 5%;
 }
 
+.col2-1 {
+    display: grid;
+    grid-template-columns: 32% 32%;
+    justify-content: center;
+    padding: 3vw 0px;
+    column-gap: 5%;
+}
+
 .leaderboard-section {
     background: url(../img/Leaderboard\ and\ guide\ bg.png);
     background-repeat: no-repeat;
