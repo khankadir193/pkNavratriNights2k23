@@ -304,7 +304,7 @@ function slider023(arrow) {
    else if (arrow == "left" && s2SliderNumber == 0) {
       s2SliderNumber = 4;
    }
-   else if (arrow == "right" && s2SliderNumber < 4) {
+   else if (arrow == "right" && s2SliderNumber < 5) {
       s2SliderNumber = s2SliderNumber + 1;
    }
    else {
