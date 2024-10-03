@@ -199,6 +199,21 @@ body {
     padding: 3vw 0px;
 }
 
+.tcol3 {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    justify-content: space-between;
+    padding: 3vw 0px;
+}
+
+.tcol32 {
+    display: grid;
+    grid-template-columns: 33% 33%;
+    justify-content: center;
+    padding: 3vw 0px;
+    column-gap: 5%;
+}
+
 .col2 {
     display: grid;
     grid-template-columns: 33% 33% 33%;
