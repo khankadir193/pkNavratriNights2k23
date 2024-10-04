@@ -202,8 +202,9 @@ body {
 .tcol3 {
     display: grid;
     grid-template-columns: 25% 25% 25%;
-    justify-content: space-between;
+    justify-content: center;
     padding: 3vw 0px;
+    gap: 1vw;
 }
 
 .tcol32 {
