@@ -361,6 +361,19 @@ body {
     margin-bottom: 2vw;
 }
 
+.leaderboard-strip2 {
+    background: url(../img/4th\ name\ onwards\ strip.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: grid;
+    grid-template-columns: 5% 10% auto 30%;
+    padding: 1vw 2vw 3vw 3vw;
+    align-items: center;
+    font-size: 3.2vw;
+    column-gap: 2%;
+    margin-bottom: -8vw;
+}
+
 .event-date {
     margin: 0 auto;
     position: relative;
